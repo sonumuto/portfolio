@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaDocker, FaAws, FaJenkins, FaPython, FaLinux, FaGitlab } from "react-icons/fa";
 import { SiAnsible, SiSelenium, SiFastapi, SiMongodb, SiAppium, SiRabbitmq } from "react-icons/si";
