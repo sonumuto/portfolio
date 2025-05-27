@@ -41,7 +41,7 @@ export default function Home() {
           className="relative w-48 h-48 mb-8 rounded-full overflow-hidden border-4 border-blue-500 dark:border-blue-400"
         >
           <img
-            src={process.env.NODE_ENV === 'production' ? '/portfolio/images/profile.png' : '/images/profile.png'}
+            src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/images/profile.png`}
             alt="Profile"
             className="w-full h-full object-cover"
           />
