@@ -224,7 +224,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-8 text-center text-gray-600 dark:text-gray-400">
-        <p>© {new Date().getFullYear()} Umut Yigitoglu. All rights reserved.</p>
+        <p>Umut Yigitoglu {new Date().getFullYear()}</p>
       </footer>
     </div>
   );
