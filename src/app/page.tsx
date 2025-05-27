@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { FaGithub, FaLinkedin, FaDocker, FaAws, FaJenkins, FaPython, FaLinux, FaGitlab } from "react-icons/fa";
 import { SiAnsible, SiSelenium, SiFastapi, SiMongodb, SiAppium, SiRabbitmq } from "react-icons/si";
 import { GiSecurityGate } from "react-icons/gi";
@@ -40,10 +41,13 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="relative w-48 h-48 mb-8 rounded-full overflow-hidden border-4 border-blue-500 dark:border-blue-400"
         >
-          <img
-            src={`${process.env.NODE_ENV === 'production' ? '/portfolio' : ''}/images/profile.png`}
+          <Image
+            src="/images/profile.png"
             alt="Profile"
+            width={192}
+            height={192}
             className="w-full h-full object-cover"
+            priority
           />
         </motion.div>
         
