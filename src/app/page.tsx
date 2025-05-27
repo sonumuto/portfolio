@@ -41,12 +41,10 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="relative w-48 h-48 mb-8 rounded-full overflow-hidden border-4 border-blue-500 dark:border-blue-400"
         >
-          <Image
+          <img
             src="/images/profile.png"
             alt="Profile"
-            fill
-            className="object-cover"
-            priority
+            className="w-full h-full object-cover"
           />
         </motion.div>
         
